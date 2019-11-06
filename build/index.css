@@ -1,0 +1,57 @@
+
+body{
+    background-image: url("11.jpg");
+}
+.Global
+{
+    text-align: center;
+    padding:10px ;
+}
+
+.input-group
+{
+    display: inline-block;
+}
+.search
+{
+    display: flex;
+    justify-content: 'center';
+    align-items: 'center';
+}
+/*Gallery Styles*/
+
+.book{
+    display: inline-block;
+    width: 220px;
+    height: 220px;
+    margin: 10px;
+    text-align: left;
+    cursor: point;
+    position: relative;
+}
+
+.book-img
+{
+    width: 220px;
+    height: 220px;
+    border: 4px solid;
+    border-radius: 4px;
+    object-fit: cover;
+    position: absolute;
+
+
+}
+
+.book-text
+{
+    background-color: #000 ;
+    color: #fff;
+    opacity: 0.75;
+    width: 214px;
+    margin-left:3px ;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+
+}
